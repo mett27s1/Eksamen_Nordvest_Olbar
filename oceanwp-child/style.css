@@ -1,0 +1,137 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Template: oceanwp
+Author: OceanWP
+Author URI: https://oceanwp.org/about-me/
+Description: OceanWP is the perfect theme for your project. Lightweight and highly extendable, it will enable you to create almost any type of website such a blog, portfolio, business website and WooCommerce storefront with a beautiful &amp; professional design. Very fast, responsive, RTL &amp; translation ready, best SEO practices, unique WooCommerce features to increase conversion and much more. You can even edit the settings on tablet &amp; mobile so your site looks good on every device. Work with the most popular page builders as Elementor, Beaver Builder, Brizy, Visual Composer, Divi, SiteOrigin, etc... Developers will love his extensible codebase making it a joy to customize and extend. Best friend of Elementor &amp; WooCommerce. Looking for a Multi-Purpose theme? Look no further! Check the demos to realize that it's the only theme you will ever need: https://oceanwp.org/demos/
+Tags: two-columns,right-sidebar,footer-widgets,blog,news,custom-background,custom-menu,post-formats,rtl-language-support,sticky-post,editor-style,threaded-comments,translation-ready,buddypress,custom-colors,featured-images,full-width-template,theme-options,e-commerce,block-styles,wide-blocks,accessibility-ready
+Version: 3.2.2.1651850026
+Updated: 2022-05-06 17:13:46
+
+*/
+/* Fonte */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url("https://use.typekit.net/odn0pca.css");
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+h2 {
+    font-family: abril-text, serif;
+    font-weight: 550;
+    font-style: italic;
+    font-size: 35px;
+}
+
+#site-header {
+    border-bottom: none;
+}
+
+#site-logo {
+    padding: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #C9C6C6;
+    color: white;
+}
+
+button[type="submit"] {
+    background-color: #D3F70D;
+}
+
+
+wp-block-columns .ikoner {
+    display: flex;
+}
+
+#searchform-dropdown {
+    border-top: none;
+}
+
+.oceanwp-mobile-menu-icon a {
+    scale: 2;
+    padding-right: 5px;
+}
+
+
+
+.container {
+    width: 100%;
+}
+
+.containerw3 {
+    position: relative;
+    height: 50%;
+}
+
+.imagew3 {
+    display: block;
+    max-width: 100% !important;
+height: auto !important;
+}
+
+
+.overlayw3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(255, 255, 255, 0.6);
+
+}
+
+.containerw3:hover .overlayw3 {
+    opacity: 1;
+}
+
+.textw3 {
+    color: #000000;
+    font-family: abril-text, serif;
+    font-weight: 550;
+    font-style: italic;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.page-header {
+  display: none;
+
+}
+#top-bar {
+ display: none;
+
+}
+
+
+a:active, a:focus {
+  outline: 0 !important;
+  border: none !important;
+  -moz-outline-style: none !important;
+}
+@media only screen and (max-width: 980px) {
+    
+.has-text-align-right {
+  text-align: left;
+}
+    
+}
